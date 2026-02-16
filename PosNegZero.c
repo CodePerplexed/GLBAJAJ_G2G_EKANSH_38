@@ -10,7 +10,9 @@ int main()
     printf("The Number is negative.");
     else if(n > 0)
     printf("The Number is positive.");
-    else
+    else if(n == 0)
     printf("The number is zero.");
+    else
+    printf("Invalid input.");
     return 0;
 }
